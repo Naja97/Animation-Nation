@@ -6521,12 +6521,20 @@ let cards = [
   },
   {
     artName: 'Rolling Happy',
-    pageLink: './Art/marion/index.html',
-    imageLink: './Art/marion/smiles.gif',
-    author: 'Marion',
-    githubLink: 'https://github.com/marionjudy13'
+    pageLink: './Art/JanaArt/index.html',
+    imageLink: './Art/JanaArt/janaart.gif',
+    author: 'Jana',
+    githubLink: 'https://github.com/Naja97'
   },
+  {
+    artName: 'JanaArt',
+    pageLink: './Art/Joy/triangle/triangle.html',
+    imageLink: './Art/Joy/triangle/triangle.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  }
 ];
+
 
 // +--------------------------------------------------------------------------------+
 // +                                                                                +

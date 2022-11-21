@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #320032;
+}
+
+.container {
+    position:relative;
+    left:50%; 
+    margin-left:-5em;
+}
+
+.box {
+    background-color: #f3eae1;
+    height: 10em;
+    width: 10em;
+    position: relative;
+}
+
+.one{
+    animation-name: example;
+    animation-duration: 5s;
+}
+.two {
+    animation-name: example;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+.three {
+    animation-name: example;
+    animation-delay: 2s;
+    animation-duration: 5s;
+}
+.four {
+    animation-name: example;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+.five {
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+    0%   {background-color:#aac96e; left:0px; top:0px;}
+    20%  {background-color:#ccc65f; left:200px; top:0px;}
+    40%  {background-color:#efbcff; left:200px; top:200px;}
+    60%  {background-color:#7b99f4; left:-200px; top:200px;}
+    75%  {background-color:#6f5fcc; left:-200px; top:0px;}
+    100% {background-color:#f3eae1; left:0px; top:0px;}
+    
+}
+.three p {
+    color: #f3eae1;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10em;
+    margin: 0px;
+}
+
